@@ -1,0 +1,16 @@
+#tree {
+  background-color: black;
+  color: #7C7777;
+  position:fixed;
+  height:100%;
+  width: 25%;
+  overflow-y: auto;
+  margin-left: -1%;
+}
+#tree::-webkit-scrollbar { width: 0 !important }
+
+#contentSectionID {
+  width: 50%;
+  margin-top: 1%;
+}
+
