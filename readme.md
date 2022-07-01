@@ -1,15 +1,15 @@
-###Οι βιβλιοθήκες που πρέπει να κληθούν είναι οι εξής:
+### Οι βιβλιοθήκες που πρέπει να κληθούν είναι οι εξής:
 ```
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
 
 ```
 
-####Το JsTree theme που προτείνεται είναι το εξής: 
+#### Το JsTree theme που προτείνεται είναι το εξής: 
 ```
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
 ```
-####Το μοτίβο html που προτείνεται απο εμένα είναι το εξής:
+#### Το μοτίβο html που προτείνεται απο εμένα είναι το εξής:
 ```
 <div class="container-fluid">
     <div class="row">
@@ -27,7 +27,7 @@
     </div>
 </div>
 ```
-####Σε περίπτωση που υλοποιηθεί το παραπάνω μοτίβο χρειάζεται η εξής βιβλιοθήκη:
+#### Σε περίπτωση που υλοποιηθεί το παραπάνω μοτίβο χρειάζεται η εξής βιβλιοθήκη:
 ```
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
@@ -62,7 +62,7 @@
   background-color: black; //Το χρώμα που έχουμε ορίσει ώς background του tree.
 }
 ```
-##### Σημαντικό επίσης ό,τι εάν θελήσουμε να ορίσουμε διαφορετικό margin στα πεδία search_field,search_button,clear_button πρέπει να εχούμε υπόψιν ό,τι το margin του κάθε πεδίου εξαρτάται από το margin του προηγούμενου του(στη σειρά δηλωσής τους).
+##### Σημαντικό επίσης ότι εάν θελήσουμε να ορίσουμε διαφορετικό margin στα πεδία search_field,search_button,clear_button πρέπει να εχούμε υπόψιν ότι το margin του κάθε πεδίου εξαρτάται από το margin του προηγούμενου του(στη σειρά δηλωσής τους).
 #### Η main πρεπει να κληθει με 3 ορισματα:
 - Το όνομα του div που θα χρησιμοποιηθεί για το tree.
 - Έναν αριθμό που θα καθορίζει το offset του κάθε element απο την κορυφή της σελίδας.
